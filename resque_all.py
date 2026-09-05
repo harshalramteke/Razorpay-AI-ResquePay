@@ -138,6 +138,8 @@ def inject_batch(count=10):
         process_with_gemini(payment_id, scen["reason"], amount, email)
 
 # --- STREAMLIT UI LAYOUT ---
+st.sidebar.markdown("[🔗 **View Code on GitHub**](https://github.com/harshalramteke/Razorpay-AI-ResquePay)")
+
 st.title("⚡ ResquePay — AI Revenue Recovery Daemon")
 st.caption("Razorpay AI Buildathon 2026 | Track 03 Protocol Dashboard")
 st.divider()
